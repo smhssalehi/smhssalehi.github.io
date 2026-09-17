@@ -1,0 +1,14 @@
+<article class="paper-card{% if include.section.compact %} compact{% endif %}{% if paper.label %} featured{% endif %}{% if paper.image %} with-image{% endif %}" aria-labelledby="{{ paper.id }}">
+  {% if paper.image %}<div class="paper-image"><img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" width="{{ paper.image_width | default: 360 }}" height="{{ paper.image_height | default: 230 }}" loading="lazy"></div>{% endif %}
+  <div class="paper-content">
+    {% if paper.label %}<p class="paper-label">{{ paper.label }}</p>{% endif %}
+    <h3 id="{{ paper.id }}">{{ paper.title }}</h3>
+    {% if paper.coauthors %}<p class="coauthors">With {{ paper.coauthors }}</p>{% endif %}
+    {% if paper.status %}<p class="paper-status">{{ paper.status }}</p>{% endif %}
+    {% if paper.description %}<p class="project-description">{{ paper.description }}</p>{% endif %}
+    <div class="paper-actions">
+      {% if paper.abstract %}<details><summary>Abstract<span class="visually-hidden">: {{ paper.title }}</span></summary><div class="abstract"><p>{{ paper.abstract }}</p></div></details>{% endif %}
+      {% if paper.paper %}<a class="paper-link" href="{{ paper.paper | relative_url }}" target="_blank" rel="noopener" aria-label="Read {{ paper.title | escape }} ({% if paper.paper_format %}{{ paper.paper_format }}, {% endif %}opens in a new tab)">Paper{% if paper.paper_format %} <span class="file-kind">{{ paper.paper_format }}</span>{% endif %}</a>{% endif %}
+    </div>
+  </div>
+</article>

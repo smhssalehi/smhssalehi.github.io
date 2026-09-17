@@ -1,0 +1,13 @@
+<aside class="profile" aria-label="Profile and contact information">
+  <img class="portrait" src="{{ site.author.avatar | relative_url }}" alt="Portrait of Mohammad H. Seyedsalehi" width="224" height="224">
+  <div class="profile-info">
+    <h2 class="profile-name"><a href="{{ '/' | relative_url }}" aria-label="Mohammad H. Seyedsalehi — homepage">Mohammad H.<br>Seyedsalehi</a></h2>
+    <p class="position">{{ site.author.bio }}<br>{{ site.author.employer }}</p>
+    <p class="location">{{ site.author.location }}</p>
+    <a class="email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    <div class="profile-links">
+      <a href="{{ site.cv | relative_url }}" target="_blank" rel="noopener" aria-label="Curriculum vitae (PDF, opens in a new tab)">CV</a>
+      {% if site.author.linkedin %}<a href="{{ site.author.linkedin | escape }}">LinkedIn</a>{% endif %}
+    </div>
+  </div>
+</aside>

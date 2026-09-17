@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230">
+  <rect width="360" height="230" fill="#f5f3ee"/>
+  <g fill="none" stroke="#c5c8bf" stroke-width="1.4">
+    <path d="M99 90V55h54m54 0h54v35"/>
+    <path d="M144 50l9 5-9 5m108 22 9 8 8-8"/>
+    <path d="M109 173c37 26 105 26 142 0" stroke-dasharray="4 5"/>
+  </g>
+  <circle cx="180" cy="55" r="24" fill="#ede6dc" stroke="#b9886c" stroke-width="1.3"/>
+  <path d="M170 62c-1-12 5-20 18-21 2 12-4 23-16 22m0-1 12-15" fill="none" stroke="#947255" stroke-width="1.7" stroke-linecap="round"/>
+  <g stroke="#82907c" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="70" y="96" width="52" height="72" rx="5" fill="#e9ede4"/>
+    <path d="M66 170h61m-5-59 11 11v29c0 9 12 9 12 0v-32l-13-17m7 7 6 2v10"/>
+    <rect x="79" y="105" width="34" height="23" rx="2"/>
+    <path d="M92 151c-2-9 2-14 12-15 1 9-3 16-11 16m0-1 8-11"/>
+  </g>
+  <g stroke="#9f806c" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="228" y="96" width="52" height="72" rx="5" fill="#eee4dc"/>
+    <path d="M224 170h61m-5-59 11 11v29c0 9 12 9 12 0v-32l-13-17m7 7 6 2v10"/>
+    <rect x="237" y="105" width="34" height="23" rx="2"/>
+    <path d="M254 135c-3 5-8 10-8 14a8 8 0 0 0 16 0c0-4-5-9-8-14Z"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5" text-anchor="middle" fill="#6c7066">
+    <text x="97" y="193">ETHANOL</text>
+    <text x="255" y="193">GASOLINE</text>
+  </g>
+</svg>

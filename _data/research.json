@@ -1,0 +1,71 @@
+[
+  {
+    "number": "01",
+    "title": "Working papers",
+    "id": "research",
+    "papers": [
+      {
+        "id": "renovabio",
+        "title": "When Low-Carbon Incentives Do Not Reduce Emissions: Evidence from Brazil’s RenovaBio",
+        "label": "Job Market Paper",
+        "abstract": "This paper studies whether policies that expand low-carbon fuel production necessarily reduce carbon emissions. I examine Brazil’s RenovaBio program, a carbon-credit system that provides biofuel producers with incentives funded by fuel distributors. I estimate a unified equilibrium model linking heterogeneous ethanol supply, differentiated downstream fuel demand under oligopolistic pricing, and a dynamic carbon-credit market with banking. The answer is no: RenovaBio increases ethanol production, but because the additional ethanol displaces very little gasoline and instead largely expands total fuel consumption, the policy actually increases CO2 emissions. In contrast, increasing the ethanol blending mandate by about one percentage point generates essentially the same ethanol production while reducing emissions and creating smaller fuel-price distortions.",
+        "image": "/images/research/fuel-markets.svg",
+        "image_alt": "Original conceptual illustration of ethanol and gasoline markets connected by carbon-credit incentives.",
+        "paper": "/documents/job-market-paper.pdf",
+        "paper_format": "PDF",
+        "image_width": 360,
+        "image_height": 230
+      },
+      {
+        "id": "empirical-bayes",
+        "title": "Empirical Bayes with Side Information: Incorporating Geographic Relevance into Neighborhood Impact Estimation",
+        "status": "Second revise and resubmit, Journal of Applied Econometrics",
+        "abstract": "This paper introduces a novel methodology for estimating neighborhood impacts on intergenerational mobility. The approach employs a nonparametric empirical Bayes framework that addresses geographic heterogeneity in the underlying data-generating process. First, we propose a theoretical framework to address the long-standing yet unresolved question of how to make better use of highly relevant samples—in this context, data from geographically closer regions—when designing a shrinkage estimator for a target area. We demonstrate, both theoretically and empirically, how neglecting this factor can lead to systematically distorted estimates. Second, using publicly available data, we demonstrate that our relevance-based empirical Bayes method reduces Mean Squared Error (MSE) by 26% to 34% relative to benchmark estimates.",
+        "image": "/images/research/geographic-relevance.svg",
+        "image_alt": "Conceptual illustration of geographic neighborhoods surrounding a target area."
+      }
+    ]
+  },
+  {
+    "number": "02",
+    "title": "Publications",
+    "id": "publications",
+    "papers": [
+      {
+        "id": "order-flow",
+        "title": "The Effects of Order Flow Imbalance on Stock Prices in Tehran Stock Exchange",
+        "coauthors": "Mahdi Barakchian",
+        "status": "Financial Management Perspective, 2022",
+        "abstract": "We investigate the effects of order-book events on the prices of the 30 largest stocks on the Tehran Stock Exchange during 2020. We measure the sensitivity of prices to changes in supply and demand volumes and identify the factors affecting this sensitivity. Following the approach of Cont et al. (2014), we conduct approximately 30,000 OLS regressions and show that, in a low-depth market, mid-price returns are significantly explained by order flow imbalance, which captures the net change in demand—that is, the difference between event volumes on the two sides of the order book. We also show that incorporating order flow imbalance from the first three levels of the order book increases the model’s explanatory power for changes in stock mid-prices, indicating that deeper levels of the order book also significantly affect price changes. Moreover, the results confirm that market depth reduces the price impact of order-book events. Our findings are robust across months and stocks.",
+        "paper": "https://jfmp.sbu.ac.ir/article_103073.html?lang=en"
+      }
+    ]
+  },
+  {
+    "number": "03",
+    "title": "Work in progress",
+    "id": "work-in-progress",
+    "compact": true,
+    "papers": [
+      {
+        "id": "green-subsidies",
+        "title": "Who Benefits from Green Subsidies? Labor Standards and the Distribution of Gains",
+        "coauthors": "Zahra Sedaghat Telgard",
+        "description": "This project studies how labor standards attached to Canada’s Clean Technology Investment Tax Credit affect the distribution of subsidy benefits between firms and workers.",
+        "abstract": "How are the gains from green investment subsidies distributed between firms and workers? This project examines whether labor conditions attached to these subsidies increase workers’ share of the benefits, using Canada’s Clean Technology Investment Tax Credit. The policy offers a larger credit to firms meeting prevailing-wage and apprenticeship requirements, linking investment support to employment practices. The analysis links firms’ investment and contractor choices to worker earnings. Firms can qualify for additional support without raising existing workers’ pay if they already meet the standards or hire contractors that do. Higher wages at subsidized projects therefore need not reflect gains caused by the policy. Comparing subsidies with and without labor conditions at the same fiscal cost would assess whether these requirements increase worker earnings and training opportunities, and how they affect investment and hiring."
+      },
+      {
+        "id": "carbon-markets",
+        "title": "One Carbon Market or Many? Optimal Integration of Sectoral Carbon Markets",
+        "description": "This project examines the optimal organization of carbon credit markets across sectors, including the tradeoff between integrating markets under a common carbon price and maintaining sector-specific clean-production incentives.",
+        "abstract": "This paper asks whether carbon credit markets that jointly penalize dirty activity and reward clean activity should be organized separately by sector or integrated into a common market. Integration can establish a common carbon price, equalizing marginal abatement costs across sectors and shifting emissions reductions toward lower-cost opportunities, while also allowing payments from dirty activity in one sector to finance clean investment in another. Separation, however, preserves sector-specific certificate prices, allowing clean incentives to respond independently to differences in innovation and adoption frictions. I study a market design in which clean activities generate tradable certificates and dirty activities create demand for the same asset, with sector-specific crediting and obligation rates determining the effective clean subsidy and carbon penalty. I characterize when a unified market can achieve the efficient combination of a common carbon price and differentiated clean-technology support, when separate sectoral markets perform better, and how this tradeoff depends on abatement costs and clean-technology spillovers across sectors."
+      },
+      {
+        "id": "euler-equations",
+        "title": "Euler Equations for Dynamic Games",
+        "coauthors": "Victor Aguirregabiria",
+        "description": "This project develops Euler equations for dynamic games to facilitate the estimation of firms’ dynamic strategic decisions without repeatedly solving their full optimization problems."
+      }
+    ]
+  }
+]
