@@ -663,3 +663,11 @@ html { scroll-padding-top: calc(var(--header-offset) + 22px); }
 @media print {
   .masthead, .profile { display: none; }
 }
+
+/* Preserve the original portrait size in the pinned desktop sidebar. */
+@media (min-width: 1051px) {
+  .profile .portrait { width: 224px; height: 224px; }
+}
+@media (min-width: 761px) and (max-width: 1050px) {
+  .profile .portrait { width: 200px; height: 200px; }
+}
