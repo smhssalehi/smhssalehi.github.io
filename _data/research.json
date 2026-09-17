@@ -51,20 +51,18 @@
         "id": "green-subsidies",
         "title": "Who Benefits from Green Subsidies? Labor Standards and the Distribution of Gains",
         "coauthors": "Zahra Sedaghat Telgard",
-        "description": "This project studies how labor standards attached to Canada’s Clean Technology Investment Tax Credit affect the distribution of subsidy benefits between firms and workers.",
         "abstract": "How are the gains from green investment subsidies distributed between firms and workers? This project examines whether labor conditions attached to these subsidies increase workers’ share of the benefits, using Canada’s Clean Technology Investment Tax Credit. The policy offers a larger credit to firms meeting prevailing-wage and apprenticeship requirements, linking investment support to employment practices. The analysis links firms’ investment and contractor choices to worker earnings. Firms can qualify for additional support without raising existing workers’ pay if they already meet the standards or hire contractors that do. Higher wages at subsidized projects therefore need not reflect gains caused by the policy. Comparing subsidies with and without labor conditions at the same fiscal cost would assess whether these requirements increase worker earnings and training opportunities, and how they affect investment and hiring."
       },
       {
         "id": "carbon-markets",
         "title": "One Carbon Market or Many? Optimal Integration of Sectoral Carbon Markets",
-        "description": "This project examines the optimal organization of carbon credit markets across sectors, including the tradeoff between integrating markets under a common carbon price and maintaining sector-specific clean-production incentives.",
         "abstract": "This paper asks whether carbon credit markets that jointly penalize dirty activity and reward clean activity should be organized separately by sector or integrated into a common market. Integration can establish a common carbon price, equalizing marginal abatement costs across sectors and shifting emissions reductions toward lower-cost opportunities, while also allowing payments from dirty activity in one sector to finance clean investment in another. Separation, however, preserves sector-specific certificate prices, allowing clean incentives to respond independently to differences in innovation and adoption frictions. I study a market design in which clean activities generate tradable certificates and dirty activities create demand for the same asset, with sector-specific crediting and obligation rates determining the effective clean subsidy and carbon penalty. I characterize when a unified market can achieve the efficient combination of a common carbon price and differentiated clean-technology support, when separate sectoral markets perform better, and how this tradeoff depends on abatement costs and clean-technology spillovers across sectors."
       },
       {
         "id": "euler-equations",
         "title": "Euler Equations for Dynamic Games",
         "coauthors": "Victor Aguirregabiria",
-        "description": "This project develops Euler equations for dynamic games to facilitate the estimation of firms’ dynamic strategic decisions without repeatedly solving their full optimization problems."
+        "abstract": "This project develops Euler equations for dynamic games to facilitate the estimation of firms’ dynamic strategic decisions without repeatedly solving their full optimization problems."
       }
     ]
   }

@@ -38,4 +38,4 @@ On this Windows checkout, the local runtime prepared for review can also be used
 .\scripts\preview.ps1 -Build
 ```
 
-The local Ruby/compiler, gems, and review screenshots are ignored under `tmp/`; they are not published or committed. The public CV omits the phone number and telephone link; the original download is unchanged.
+The local Ruby/compiler, gems, and review screenshots are ignored under `tmp/`; they are not published or committed. The public CV is the author-supplied September 17 revision, without a phone number.

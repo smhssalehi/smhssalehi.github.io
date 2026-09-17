@@ -8,7 +8,7 @@
     {% if paper.description %}<p class="project-description">{{ paper.description }}</p>{% endif %}
     <div class="paper-actions">
       {% if paper.abstract %}<details><summary>Abstract<span class="visually-hidden">: {{ paper.title }}</span></summary><div class="abstract"><p>{{ paper.abstract }}</p></div></details>{% endif %}
-      {% if paper.paper %}<a class="paper-link" href="{{ paper.paper | relative_url }}" target="_blank" rel="noopener" aria-label="Read {{ paper.title | escape }} ({% if paper.paper_format %}{{ paper.paper_format }}, {% endif %}opens in a new tab)">Paper{% if paper.paper_format %} <span class="file-kind">{{ paper.paper_format }}</span>{% endif %}</a>{% endif %}
+      {% if paper.paper %}<a class="paper-link" href="{{ paper.paper | relative_url }}" target="_blank" rel="noopener" aria-label="Read {{ paper.title | escape }} ({% if paper.paper_format %}{{ paper.paper_format }}, {% endif %}opens in a new tab)">Paper</a>{% endif %}
     </div>
   </div>
 </article>
