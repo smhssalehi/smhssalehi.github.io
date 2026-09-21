@@ -6,7 +6,7 @@
     "papers": [
       {
         "id": "renovabio",
-        "title": "Clean Incentives, Increased Carbon: Evidence from Ethanol",
+        "title": "The Carbon Paradox of Clean Incentives: Evidence from Ethanol",
         "label": "Job Market Paper",
         "abstract": "When carbon pricing faces implementation barriers, promoting low-carbon production offers an alternative; it aims to reduce emissions by making cleaner substitutes more affordable. This paper develops a dynamic framework to assess whether incentives for cleaner production necessarily reduce emissions, considering both substitution toward cleaner goods and rebound effects from increased total consumption. I apply it to Brazil, the world’s second-largest ethanol market, where RenovaBio uses incentives funded by fossil fuel distributors to promote ethanol, a cleaner substitute for gasoline. The estimated unified equilibrium model combines supply from heterogeneous ethanol producers, differentiated fuel demand under oligopolistic pricing, and dynamic carbon-credit banking. The answer is no: RenovaBio increases ethanol production but displaces very little gasoline, expanding total fuel consumption and raising emissions by 0.22% relative to policy removal over 2020–2024. In contrast, replacing RenovaBio with an ethanol blending mandate about one percentage point higher generates essentially the same ethanol production, with 1.20% lower emissions than RenovaBio and smaller fuel-price distortions.",
         "image": "/images/research/fuel-markets.svg",
