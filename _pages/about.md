@@ -7,7 +7,7 @@ redirect_from:
 ---
 <section class="introduction" aria-labelledby="intro-heading">
   <h1 id="intro-heading" class="visually-hidden">Mohammad H. Seyedsalehi — economist</h1>
-  <p>I am a PhD candidate in Economics at the University of Toronto, specializing in <strong>empirical industrial organization, environmental economics,</strong> and <strong>econometrics</strong>. My research interests include competition in vertically related markets, dynamic firm behavior, structural analysis of carbon policies, and carbon market design. My parallel econometric research focuses on empirical Bayes methods and the structural estimation of dynamic models.</p>
+  <p>I am a PhD candidate in Economics at the University of Toronto, specializing in <strong>empirical industrial organization, environmental economics,</strong> and <strong>econometrics</strong>. My research interests include pricing and competition in vertically linked markets, dynamic firm behavior, climate finance, and carbon policy design. My parallel econometric research focuses on empirical Bayes methods and the structural estimation of dynamic models.</p>
   <p>I am on the <strong>2026–2027 economics job market</strong>.</p>
 </section>
 {% for section in site.data.research %}
