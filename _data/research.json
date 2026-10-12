@@ -22,7 +22,9 @@
         "status": "Second revise and resubmit, Journal of Applied Econometrics",
         "abstract": "This paper introduces a novel methodology for estimating neighborhood impacts on intergenerational mobility. The approach employs a nonparametric empirical Bayes framework that addresses geographic heterogeneity in the underlying data-generating process. First, we propose a theoretical framework to address the long-standing yet unresolved question of how to make better use of highly relevant samples—in this context, data from geographically closer regions—when designing a shrinkage estimator for a target area. We demonstrate, both theoretically and empirically, how neglecting this factor can lead to systematically distorted estimates. Second, using publicly available data, we demonstrate that our relevance-based empirical Bayes method reduces Mean Squared Error (MSE) by 26% to 34% relative to benchmark estimates.",
         "image": "/images/research/geographic-relevance.svg",
-        "image_alt": "Conceptual illustration of geographic neighborhoods surrounding a target area."
+        "image_alt": "Conceptual illustration of geographic neighborhoods surrounding a target area.",
+        "paper": "/documents/empirical-bayes.pdf",
+        "paper_format": "PDF"
       }
     ]
   },
