@@ -683,7 +683,16 @@ html { scroll-padding-top: calc(var(--header-offset) + 22px); }
 .navigation li a:hover, .navigation li a:focus-visible { color:#345d49; }
 .navigation li + li::before { background:#d5dac9; }
 .profile-name a { color:#283d32; }
-.teaching-details { background:var(--warm); border-color:var(--line); }
+.teaching-details {
+  background: var(--warm);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px clamp(16px, 3vw, 24px);
+}
+.teaching-details summary { padding: 8px 0; }
+.teaching-details .teaching-list { margin: 6px 0 8px; }
+.teaching-details .teaching-list li { padding: 13px 0; overflow-wrap: break-word; }
+.teaching-details .teaching-list li:last-child { border-bottom: 0; }
 
 :root{--accent:#64743d;--link:#345e47;--paper:#fafcf7;--warm:#edf2e7}.masthead{background:#fafcf7}.paper-card.featured{background:#edf2e7;border-left-color:#708348}.portrait{object-position:50% 10%}.section-heading{color:#5c713d}
 .profile .portrait{box-sizing:border-box;object-position:0 0;object-fit:cover;padding:224px 0 0;background-image:url('/images/portrait-green.png');background-size:132% auto;background-position:50% 17%;background-repeat:no-repeat}@media(max-width:1050px){.profile .portrait{padding-top:200px}}@media(max-width:760px){.profile .portrait{padding-top:224px;width:224px;height:224px}}
